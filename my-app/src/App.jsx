@@ -1,5 +1,6 @@
 import './App.css'
 import Card from './components/Card.jsx';
+import Cards from './components/Cards.jsx';
 
 function App() {
   const cardSettings = {
@@ -29,7 +30,11 @@ function App() {
 
   return (
     <>
-      <Card cardSettings={cardSettings}/>
+     <Cards>
+       <Card cardSettings={cardSettings}/>
+       <Card cardSettings={cardSettings}/>
+       <Card cardSettings={cardSettings}/>
+     </Cards>
     </>
   )
 }

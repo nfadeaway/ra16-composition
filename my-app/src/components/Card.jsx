@@ -1,6 +1,7 @@
 import React from 'react';
 
 const Card = (props) => {
+  console.log(1)
   return (
     <div className="card" style={{width: props.cardSettings.class.card.style.width}}>
 

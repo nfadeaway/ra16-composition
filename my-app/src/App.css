@@ -114,3 +114,11 @@ a {
 .card-img-top {
   width: 286px;
 }
+
+.cards-wrapper {
+  display: flex;
+}
+
+.cards-wrapper div:not(:first-child) {
+  margin-left: 10px;
+}
